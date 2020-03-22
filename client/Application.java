@@ -9,6 +9,7 @@ public class Application {
 		configreader.read();
 		System.out.println(configreader.getVal("nom"));
 		System.out.println(configreader.getVal("prenom")); 
+		System.out.println(configreader.getVal("prenom"));
 	}
 
 }
