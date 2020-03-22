@@ -8,6 +8,7 @@ public class Application {
 		ConfigReader configreader = new ConfigReader();
 		configreader.read();
 		System.out.println(configreader.getVal("nom"));
+		System.out.println(configreader.getVal("prenom"));
 	}
 
 }
